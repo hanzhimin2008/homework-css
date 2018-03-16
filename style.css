@@ -1,0 +1,32 @@
+body {
+    background-color: #00ffcc;
+}
+h1 {
+    text-align:center;
+
+}
+p.nyfw {
+    font-weight: bolder;
+}
+.bordered {
+    /*边框设置为1像素宽, 直线, 黑色, 边框圆角半径为25像素*/
+    border:1px solid black;
+    border-radius: 25px;
+
+}
+h3 {
+    color:grey;
+    font-size: 12px;
+}
+p {
+    margin-bottom: 20px;
+}
+strong {
+    margin-right: 12px;
+}
+p strong:nth-child(2){
+    margin-left: 8px;
+}
+#contact {
+    padding:12px 0px;
+}
